@@ -1,4 +1,4 @@
-# Test assignment loader for OZON
+# Test assignment loader
 
 ## How to use:
 
