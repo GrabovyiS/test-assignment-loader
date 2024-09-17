@@ -1,7 +1,7 @@
 {
   "name": "test-assignment-loader",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy to use loader that provides control API",
   "main": "test-assignment-loader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/GrabovyiS/test-assignment-loader.git"
   },
+  "keywords": [
+    "loader",
+    "progress bar"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
