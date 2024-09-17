@@ -66,7 +66,7 @@ function testAssignmentLoader(
 
   function setValue(value) {
     const loader = container.querySelector(".test-assignment-loader");
-    loader.style.setProperty("--loader-value", `${Number(value) && 0}%`);
+    loader.style.setProperty("--loader-value", `${Number(value) || 0}%`);
   }
 
   function setAnimated(animated) {
