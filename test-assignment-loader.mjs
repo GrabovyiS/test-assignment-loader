@@ -1,6 +1,6 @@
 function testAssignmentLoader(
   container,
-  initialValue,
+  initialValue = 50,
   { initialAnimated, initialHidden } = {
     initialAnimated: false,
     initialHidden: false,
