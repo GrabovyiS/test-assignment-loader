@@ -66,12 +66,12 @@ function testAssignmentLoader(
 
   function setValue(value) {
     const loader = container.querySelector(".test-assignment-loader");
-    loader.style.setProperty("--loader-value", `${value}%`);
+    loader.style.setProperty("--loader-value", `${Number(value) && 0}%`);
   }
 
   function setAnimated(animated) {
     const loader = container.querySelector(".test-assignment-loader");
-    if (animated) {
+    if (!!animated) {
       loader.classList.add("animated");
     } else {
       loader.classList.remove("animated");
@@ -80,7 +80,7 @@ function testAssignmentLoader(
 
   function setHidden(hidden) {
     const loader = container.querySelector(".test-assignment-loader");
-    if (hidden) {
+    if (!!hidden) {
       loader.classList.add("hidden");
     } else {
       loader.classList.remove("hidden");
