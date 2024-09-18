@@ -24,7 +24,7 @@ Here's how you could use testAssignmentLoader:
 
 ```
 const container = document.querySelector('.loader-container');
-const loader = testAssignmentLoader(loaderContainer, 50, {
+const loader = testAssignmentLoader(container, 50, {
   initialAnimated: true,
 });
 
